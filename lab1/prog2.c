@@ -4,7 +4,7 @@
 
 #define SIZE 30
 
-int main(void) {
+int main() {
     int B[SIZE];
 
     printf("Task 2\n");
