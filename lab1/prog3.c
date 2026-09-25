@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "io_array.h"
+#include "io_arr.h"
 #include "task3.h"
 
 #define SIZE 70
@@ -8,7 +8,7 @@ int main() {
     int A[SIZE];
 
     printf("Task 3\n", SIZE);
-    input_array(A, SIZE);
+    input_arr(A, SIZE);
 
     double z;
     if (calculate_z(A, SIZE, &z)) {
